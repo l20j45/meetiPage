@@ -1,0 +1,11 @@
+@use '../custom'as *;
+
+.footer {
+    .link a,.lastfooter a {
+        color: white;
+    }
+
+    .link a:hover {
+        color: #877457;
+    }
+}

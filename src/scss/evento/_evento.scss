@@ -1,0 +1,15 @@
+@use '../custom'as *;
+
+.eventos {
+    .card-body:hover {
+        cursor: pointer;
+    }
+
+    a {
+        color: #877457;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+}

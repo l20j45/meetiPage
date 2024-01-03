@@ -2,11 +2,15 @@
 $rojo : #f34f51;
 $verde: #0098ae;
 $oscuro: #212121;
+$rojoIntenso: #e94d4e;
 
 // Asignar paleta de colores a Boostrap
 $secondary : $verde;
 $primary : $rojo;
 $dark: $oscuro;
-
+$danger: $rojoIntenso;
+// modificador del diplay
+$display-font-weight: 900 ;
+$headings-font-weight:       900;
 // importar bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss'

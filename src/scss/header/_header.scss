@@ -1,0 +1,39 @@
+@use '../custom'as *;
+
+.header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+}
+
+.eventos {
+    .card-body:hover {
+        cursor: pointer;
+    }
+
+    a {
+        color: #877457;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+}
+
+.footer {
+    .link a,.lastfooter a {
+        color: white;
+    }
+
+    .link a:hover {
+        color: #877457;
+    }
+}
